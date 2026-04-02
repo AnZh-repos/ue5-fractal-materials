@@ -81,4 +81,27 @@ The DS macros in `Mandelbrot_Iteration.hlsl` use the `precise` keyword on all er
 
 ## Renders
 
-'pending'
+All videos 4K 60fps, rendered via Movie Render Queue.
+
+**Mandelbulb**
+[![Mandelbulb](https://img.youtube.com/vi/WZrZBTUd98I/maxresdefault.jpg)](https://youtu.be/WZrZBTUd98I)
+
+`powerBase=8, animSpeed=0.1, aoMethod=0, trapMethod=0, normalMethod=0, fractalScale=60, Palette=BlueGold`
+
+**Mandelbox**
+[![Mandelbox](https://img.youtube.com/vi/d_n2PE4XaSo/maxresdefault.jpg)](https://youtu.be/d_n2PE4XaSo)
+
+`scaleBase=-2.0, foldLimit=0.5, innerRadius=0.5, outerRadius=1.0, animTarget=0, animSpeed=1.0, animRange=0.5, fractalScale=2400, Palette=Seamless_GoldLeaf`
+
+**Mandelbrot**
+[![Mandelbrot](https://img.youtube.com/vi/oz7AKR0AfPM/maxresdefault.jpg)](https://youtu.be/oz7AKR0AfPM)
+
+`glowBrightness=5, glowSharpness=1, iterScale=128, Palette=Ultraviolet` — zooms to `zoomExponent=40`
+
+Zoom target coordinates (paste into `Mandelbrot_Iteration.hlsl` or run your own through `ds_split.py`):
+```
+const float crHi = -0.19829005002975;
+const float crLo = 7.4054087306762995e-09;
+const float ciHi = -1.1009837388992;
+const float ciLo = 2.3803621296281108e-08;
+```
