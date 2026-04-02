@@ -81,7 +81,4 @@ The DS macros in `Mandelbrot_Iteration.hlsl` use the `precise` keyword on all er
 
 ## Renders
 
-Videos rendered at 1080p 60fps via Movie Render Queue.
-- Mandelbulb - 60fps cinematic, DE-based AO, material instance presets
-- Mandelbox - static render, scale=-2.0 default
-- Mandelbrot - 20s zoom cinematic to `zoomExponent=18`, double-precision center coordinates
+'pending'
